@@ -60,15 +60,15 @@ ul {
     list-style-position: outside;
     margin-bottom: 0.5rem;
 
+    @include list-emoji('rocket', '🚀');
+    @include list-emoji('laptop', '🖥️');
     @include list-emoji('nerd', '🤓');
-    @include list-emoji('professor', '👨‍🏫');
-    @include list-emoji('stonks', '📈');
     @include list-emoji('music', '🎧');
-    @include list-emoji('tasty', '😋');
-    @include list-emoji('golf', '🏌️‍♂️');
+    @include list-emoji('boba', '🧋');
+    @include list-emoji('camera', '📸');
     @include list-emoji('coder', '👨‍💻');
     @include list-emoji('kiosk', '🤖');
-    @include list-emoji('apple', '📱');
+    @include list-emoji('apple', '🍎');
   }
 }
 
